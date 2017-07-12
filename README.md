@@ -2,6 +2,8 @@
 
 Interface to WhatsApp Messenger
 
+# > END OF SUPPORT <
+
 **Read the [wiki](https://github.com/mgp25/Chat-API/wiki)** and previous issues before opening a new one! Maybe your issue is already answered.
 
 For new WhatsApp updates check **[WhatsApp incoming updates log](https://github.com/mgp25/Chat-API/wiki/WhatsApp-incoming-updates)**
