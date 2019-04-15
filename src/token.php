@@ -8,10 +8,12 @@ require_once 'func.php';
  * assuming the API hasn't itself changed -- which is likely to be the case since
  * we can interact with it)
  * 
- * These fields will likely have changed:
+ * Static fields:
  * - $signature
+ * 
+ * These fields change between releases:
  * - $classesMd5: MD5 hash of the 'classes.dex' file
- * - $key2
+ * - $key2: Precalculated value for the key. Check README for reference
  */
 
 function generateRequestToken($country, $phone, $platform)
