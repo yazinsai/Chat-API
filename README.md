@@ -58,7 +58,10 @@ Read through the [WA RE documentation] and found out the following:
 - `$classesMd5`: MD5 hash of the 'classes.dex' file (see [ClassesMD5]). For the version
   I was using (`2.19.81`), the value was `"p1J+2B1aBTuUMhoDkoECBA=="`
 - `$key2`: the precalculated value listed in the [Documentation - Android] section of
-  the RE-Whatsapp repository
+  the RE-Whatsapp repository. I was able to get the key generation script working, and
+  publised the code here (Note: It requires the APK file)
+  
+Now, it's time to test the updated `token.php` file with the changes I've made.
 
 [MyAppSharer]: https://play.google.com/store/apps/details?id=com.yschi.MyAppSharer&hl=en_US
 [JD-GUI]: https://java-decompiler.github.io/
