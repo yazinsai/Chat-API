@@ -57,10 +57,12 @@ Other attempts made:
 Read through the [WA RE documentation] and found out the following:
 - `$classesMd5`: MD5 hash of the 'classes.dex' file (see [ClassesMD5]). For the version
   I was using (`2.19.81`), the value was `"p1J+2B1aBTuUMhoDkoECBA=="`
-- 
+- `$key2`: the precalculated value listed in the [Documentation - Android] section of
+  the RE-Whatsapp repository
 
 [MyAppSharer]: https://play.google.com/store/apps/details?id=com.yschi.MyAppSharer&hl=en_US
 [JD-GUI]: https://java-decompiler.github.io/
 [Procyon]: https://bitbucket.org/mstrobel/procyon/downloads/
 [v2.16.148]: https://www.apkmirrordownload.com/apk/whatsapp-messenger-2-16-148-451238-apk/download-apk/
 [ClassesMD5]: https://github.com/mgp25/classesMD5-64
+[Documentation - Android]: https://github.com/mgp25/RE-WhatsApp#android-token
